@@ -9,3 +9,7 @@ p:hover {
 p:active {
     font-family: fantasy;
 }
+
+ul, p {
+    list-style: none;
+}
