@@ -1,0 +1,11 @@
+div, p {
+    text-align: center;
+}
+
+p:hover {
+    background-color: blueviolet;
+}
+
+p:active {
+    font-family: fantasy;
+}
