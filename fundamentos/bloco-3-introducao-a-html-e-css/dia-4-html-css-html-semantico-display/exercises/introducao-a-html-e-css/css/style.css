@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #12181b;
+}
+
+section header.headerInicial {
+    background-color: #2a2e35;
+}
+
+section header.headerInicial h1 {
+    font-family: fantasy;
+    color:#FFFDF7;
+    padding: 25px;
+}
+
+nav.navContainer {
+    background-color:#FFFDF7;
+    margin-bottom: 40px;
+}
+
+nav.navContainer ul li {
+    display: inline-block;
+    padding: 15px 15px 15px 0px;
+    margin-left: 25px;
+}
+
+nav.navContainer ul li a {
+    text-decoration: none;
+    color: #12181b;
+    font-size: 17px;
+}
+
+nav.navContainer ul li a:hover {
+    
+    transition: width 2s;
+    color: #a481d5;
+}
+
+.fatosStomatopoda {
+    background-color: #2a2e35;
+    max-width: 70%;
+    border-radius: 10px;
+    margin: 0px 0px 0px 45px;
+}
+
+.stomatopodaImg {
+   width: 350px;
+   margin: 15px;
+   display: inline-block;
+}
