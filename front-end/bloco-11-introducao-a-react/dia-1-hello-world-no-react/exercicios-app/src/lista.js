@@ -1,14 +1,16 @@
 import React from 'react';
 
-const Task = (value) => {
+const Task = () => {
+    const compromissos = ['um', 'dois', 'tres', 'quatro']
     return (
-      <li>{value}</li>
+      compromissos.map((compromisso) => <li>{compromisso}</li>)
     );
   }
 
 class Lista extends React.Component {
     render() {
-        return Task('teste')
+        return Task()
     }
 }
+
 export default Lista;
