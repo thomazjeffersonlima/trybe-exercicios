@@ -1,7 +1,7 @@
 import React from 'react'
-import Lista from './lista'
-import Header from './Header'
-import Content from './Content'
+import Lista from './components/lista'
+import Header from './components/Header'
+import Content from './components/Content'
 
 function App() {
   return ( 
