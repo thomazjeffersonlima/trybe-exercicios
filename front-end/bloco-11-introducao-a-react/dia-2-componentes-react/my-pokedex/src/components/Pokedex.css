@@ -1,0 +1,6 @@
+.card-pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  background-color:rgb(189, 189, 189);
+  justify-content: center;
+}
